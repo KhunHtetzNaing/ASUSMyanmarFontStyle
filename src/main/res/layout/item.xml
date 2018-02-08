@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv0"
+        android:src="@drawable/font_icon"
+        android:layout_width="110dp"
+        android:layout_height="110dp" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_toRightOf="@id/iv0"
+        android:layout_width="160dp"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:text="ASUS Myanmar Font Style"
+        android:layout_below="@id/iv"
+        android:layout_toRightOf="@id/iv0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
